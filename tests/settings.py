@@ -7,6 +7,8 @@ SECRET_KEY = 'not-a-secret'
 
 DEBUG = True
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
 INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'tests',
